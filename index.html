@@ -48,54 +48,118 @@
       </div>
     </div>
   </div>
-  <!-- <section class="max-wide-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 bg-red-500"></section> -->
-  <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-    <div class="flex flex-col">
-      <!-- <h1 class="text-5xl">Deal of the day</h1>
-      <p>Contrary to popular belief, is not simply random text.
-        It has roots in a piece of classical Latin literature
-        from 45 BC, making it over 2000 years old.</p> -->
-      <span class="countdown font-mono text-5xl">
-        <span style="--value:15;"></span>
-      </span>
-      Days
+ 
+  <div class="grid grid-flow-col mt-20">
+    <div class="">
+      <div class="whitespace-pre-wrap ...">
+        <h1 class="text-5xl md:font-bold">Deal of the day</h1>
+        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature
+          from 45 BC, making it over 2000 years old.</p>
+      </div>
     </div>
-    <div class="flex flex-col">
-      <span class="countdown font-mono text-5xl">
-        <span style="--value:10;"></span>
-      </span>
-      Hours
-    </div>
-    <div class="flex flex-col">
-      <span class="countdown font-mono text-5xl">
-        <span style="--value:24;"></span>
-      </span>
-      Minutes
-    </div>
-    <div class="flex flex-col pb-20 ">
-      <span class="countdown font-mono text-5xl">
-        <span style="--value:51;"></span>
-      </span>
-      Seconds
+    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+      <div class="flex flex-col">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:15;"></span>
+        </span>
+        Days
+      </div>
+      <div class="flex flex-col">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:10;"></span>
+        </span>
+        Hours
+      </div>
+      <div class="flex flex-col">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:24;"></span>
+        </span>
+        Minutes
+      </div>
+      <div class="flex flex-col pb-20 ">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:51;"></span>
+        </span>
+        Seconds
+      </div>
     </div>
   </div>
 
-  <div class="card w-96 bg-base-100 shadow-xl">
-    <figure class="px-10 pt-10">
-      <img src="/images/fruit1.png" alt="Shoes" class="rounded-xl" />
-    </figure>
-    <div class="card-body items-center text-center">
-      <h2 class="card-title">12.90$ - 18.85$</h2>
-      <p>Strawberry</p>
-      <div class="rating">
-        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <div class="card p-8 bg-base-100">
+      <figure class="px-6 pt-6">
+        <img src="./images/fruit1.png" alt="Strawberry" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">12.90$ - 18.85$</h2>
+        <p>Grapes</p>
+        <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-active btn-link">Details</button>
+        </div>
       </div>
-      <div class="card-actions">
-        <button class="btn btn-active btn-link">Details</button>
+    </div>
+    <div class="card p-8 bg-base-100">
+      <figure class="px-6 pt-6">
+        <img src="./images/fruit2.png" alt="Strawberry" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">12.90$ - 18.85$</h2>
+        <p>Orange</p>
+        <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-active btn-link">Details</button>
+        </div>
+      </div>
+    </div>
+    <div class="card p-8 bg-base-100">
+      <figure class="px-6 pt-6">
+        <img src="./images/fruit3.png" alt="Strawberry" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">12.90$ - 18.85$</h2>
+        <p>Mango</p>
+        <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-active btn-link">Details</button>
+        </div>
+      </div>
+    </div>
+    <div class="card p-8 bg-base-100">
+      <figure class="px-6 pt-6">
+        <img src="./images/fruit4.png" alt="Strawberry" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">12.90$ - 18.85$</h2>
+        <p>Strawberry</p>
+        <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-active btn-link">Details</button>
+        </div>
       </div>
     </div>
   </div>
@@ -110,29 +174,29 @@
       <div class="avatar-space-x-6">
         <div class="avatar">
           <div class="w-24">
-            <img src="/images/member1.png" />
+            <img src="./images/member1.png" />
           </div>
         </div>
         <div class="avatar">
           <div class="w-24">
-            <img src="/images/member2.png" />
+            <img src="./images/member2.png" />
           </div>
         </div>
         <div class="avatar">
           <div class="w-24">
-            <img src="/images/member3.png" />
+            <img src="./images/member3.png" />
           </div>
         </div>
         <div class="avatar">
           <div class="w-24">
-            <img src="/images/member4.png" />
+            <img src="./images/member4.png" />
           </div>
         </div>
       </div>
     </div>
   </div>
 </body>
-<footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+<footer class="footer footer-center p-10 bg-base-200 mt-20 text-base-content rounded">
   <h1 class="text-5xl">Fruit Blust</h1>
   <div class="grid grid-flow-col gap-4">
     <a class="link link-hover">About us</a>
